@@ -4,7 +4,7 @@ pipeline {
     environment {
         PROJECT_NAME = 'spring-petclinic'
         REPO_URL = 'https://github.com/spring-projects/spring-petclinic'
-        APP_SERVER = '192.168.1.16'
+        APP_SERVER = 'app-server'
     }    
 
     stages {
